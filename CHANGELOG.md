@@ -1,5 +1,41 @@
 # Changelog
 
+## [1.24.0](https://github.com/m-jahn/snakemake-github-action/compare/v2.1.1...v1.24.0) (2026-04-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* Use composite action with conda instead of docker action ([#39](https://github.com/m-jahn/snakemake-github-action/issues/39))
+
+### Features
+
+* add containerize support ([0050ff6](https://github.com/m-jahn/snakemake-github-action/commit/0050ff611366521cf58dde934671d428e24ef04e))
+* allow to use custom snakemake branch instead of conda version ([#53](https://github.com/m-jahn/snakemake-github-action/issues/53)) ([6c5b9f2](https://github.com/m-jahn/snakemake-github-action/commit/6c5b9f23c691f87e031b4ec397de4185c930e239))
+* option for printing disk space on error ([#31](https://github.com/m-jahn/snakemake-github-action/issues/31)) ([f4772d6](https://github.com/m-jahn/snakemake-github-action/commit/f4772d66a211af0d1542b0d756189e1d025ae984))
+* Use composite action with conda instead of docker action ([#39](https://github.com/m-jahn/snakemake-github-action/issues/39)) ([e8018d7](https://github.com/m-jahn/snakemake-github-action/commit/e8018d7b51176b179010fed2e4902c0f920d1fe5))
+
+
+### Bug Fixes
+
+* add apptainer source, yml formatting ([#45](https://github.com/m-jahn/snakemake-github-action/issues/45)) ([73be4c1](https://github.com/m-jahn/snakemake-github-action/commit/73be4c1951827687d8c1c2eb4f1c29f278618422))
+* add version.txt and CHANGELOG.md ([5f020e2](https://github.com/m-jahn/snakemake-github-action/commit/5f020e2570029576947638d5cc12c33a49b3252e))
+* bring back execution of `stagein:` ([#41](https://github.com/m-jahn/snakemake-github-action/issues/41)) ([0964516](https://github.com/m-jahn/snakemake-github-action/commit/0964516b6860bfb28f3b76b5e6b61dc50a57fab5))
+* correctly fail when printing disk space ([#33](https://github.com/m-jahn/snakemake-github-action/issues/33)) ([041738e](https://github.com/m-jahn/snakemake-github-action/commit/041738e12848c0e80d45ad4e82656d6090b64e34))
+* defunct release-please action ([#46](https://github.com/m-jahn/snakemake-github-action/issues/46)) ([c5f3459](https://github.com/m-jahn/snakemake-github-action/commit/c5f3459a28884db12c0ccef91f290d4373dbd7c9))
+* dummy fix for testing release automation ([4240c6c](https://github.com/m-jahn/snakemake-github-action/commit/4240c6c20af80f35c5e282e94aae432afd2b47aa))
+* improve error handling logic ([#35](https://github.com/m-jahn/snakemake-github-action/issues/35)) ([bdc87e0](https://github.com/m-jahn/snakemake-github-action/commit/bdc87e0b8a9a15af393c9ba271ab6fb7318e37bd))
+* install snakemake conda deps in case of snakemake-branch ([5df718d](https://github.com/m-jahn/snakemake-github-action/commit/5df718db623c3101eb361621e6697623246069d6))
+* keep conda env and install branch snakemake via pip on top ([cdae5b6](https://github.com/m-jahn/snakemake-github-action/commit/cdae5b6dade94cf4847592087e3b231a7ab479e8))
+* pin miniforge to working version `25.9.1` ([#49](https://github.com/m-jahn/snakemake-github-action/issues/49)) ([22d9209](https://github.com/m-jahn/snakemake-github-action/commit/22d9209fb21106d8cd39f953c5b025a6f6a3ec52))
+* pin python version to 3.12 ([1ebc8f9](https://github.com/m-jahn/snakemake-github-action/commit/1ebc8f9e4bd0e0a1425a6e58e964e01f8bec81e5))
+* remove unused remote setup that was using GitHub token in version tag update ([#51](https://github.com/m-jahn/snakemake-github-action/issues/51)) ([b46b0bb](https://github.com/m-jahn/snakemake-github-action/commit/b46b0bb3c7c5801540a247cb6bee1a8d895cd743))
+* switch to go release type ([fa19505](https://github.com/m-jahn/snakemake-github-action/commit/fa195051789ccd9a70c36d34bb0f6ca80478a3af))
+
+
+### Miscellaneous Chores
+
+* release 1.24.0 ([0d60a86](https://github.com/m-jahn/snakemake-github-action/commit/0d60a86f388e02bbf40d1b90f2e280822534d468))
+
 ## [2.1.1](https://github.com/snakemake/snakemake-github-action/compare/v2.1.0...v2.1.1) (2026-03-26)
 
 
